@@ -1,0 +1,60 @@
+<html lang="pt-br">
+	<head>
+	  <title>conte carneiros</title>
+	</head>
+	<body>
+	  <div>
+	    <p id="carneirinhos">carneiros :0</p>
+	    <button onclick="pause()" id="playOrPause">▶</button>
+	  </div>
+	  <div class="fundo">
+		  
+	  </div>
+	  <img src="./assets/ovelha.png" id="ovelha">
+	  <img src="./assets/cerca.png" id="cerca">
+	  <div class="grama">
+	  
+	  </div>
+	  <audio id="music">
+	    <source src="https://ia600105.us.archive.org/1/items/CalmingMusicForChildren/01.%205%20Minute%20Calm%20Down%20-%20Relaxing%20Music%20for%20Panic%20Attacks.mp3">
+	  </audio>
+	</body>
+	<style>
+	  *{
+		  background-color :black;
+	  }
+	  .fundo{
+		  background-image :url("./assets/fundo.png");
+		  background-repeat :no-repeat;
+		  width :2000px;
+	  }
+	  p{
+		  font-family :'Arial';
+		  color :white;
+		  background-color :transparent;
+	  }
+	  .grama{
+		  background-color :green;
+		  height :900px;
+	  }
+	  #ovelha{
+		  width :200px;
+		  height :200px;
+		  position :Absolute;
+		  right :300px;
+		  top :366px;
+		  background-color :transparent;
+	  }
+	  #cerca{
+		  position :Absolute;
+		  background-color :transparent;
+		  right :550px;
+		  top :366px;
+	  }
+	  #playOrPause{
+		  color :white;
+		  background-color :black;  
+	  }
+	</style>
+</html>
+<script src="script.js"></script>
